@@ -18,22 +18,13 @@ public class Main {
         System.out.println("        O que você deseja fazer?        ");
         System.out.println("----------------------------------------");
         System.out.println("1 - Listar suas tarefas atuais");
-        System.out.println("2 - Adicionar uma nova tarefa");
-        System.out.println("3 - Remover uma tarefa existente");
-        System.out.println("Digite o nome da tarefa:");
-        String nameTask = sc.nextLine();
-        TaskCache.removeTask(nameTask);
-
-        System.out.println("4 - Alterar o status de uma tarefa");
-        System.out.println("5 - Sair do programa");
-
-        System.out.println("Digite o nome da tarefa: ");
-        String name = sc.nextLine();
-        System.out.println("Digite a descrição da tarefa: ");
-        String description = sc.nextLine();
-        System.out.println("Informe a data/prazo final da tarefa: ");
-        LocalDate deadLine = LocalDate.parse(sc.nextLine());
-        Task task = new Task(name, description, deadLine);
+        System.out.println("2 - Buscar uma tarefa");
+        System.out.println("3 - Adicionar uma nova tarefa");
+        System.out.println("4 - Remover uma tarefa existente");
+        System.out.println("5 - Atualizar uma tarefa");
+        System.out.println("6 - Adicionar Status a uma tarefa");
+        System.out.println("7 - Marcar tarefa como concluida");
+        System.out.println("8 - Sair do programa");
 
 
         sc.close();

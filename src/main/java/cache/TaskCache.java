@@ -13,4 +13,7 @@ public class TaskCache {
     public static void removeTask(String task) {
         taskList.remove(task);
     }
+    public static void listAllTasks(Task task) {
+        taskList.get(task.getName());
+    }
 }
