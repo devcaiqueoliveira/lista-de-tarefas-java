@@ -1,3 +1,6 @@
+package cache;
+
+import core.Task;
 import java.util.HashMap;
 import java.util.Map;
 

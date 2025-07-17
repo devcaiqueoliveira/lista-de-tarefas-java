@@ -1,3 +1,8 @@
+package ui;
+
+import cache.TaskCache;
+import core.Task;
+
 import java.time.LocalDate;
 import java.util.Scanner;
 
