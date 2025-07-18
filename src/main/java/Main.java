@@ -57,7 +57,6 @@ public class Main {
                     System.out.println("Digite o nome da tarefa que você deseja marcar como concluída: ");
                     String name = sc.nextLine();
                     TaskManager.markTaskAsCompleted(name);
-
                 }
                 case 7 -> {
                     System.out.println("Finalizando programa...");
