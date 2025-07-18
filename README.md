@@ -23,7 +23,7 @@ O código foi organizado em uma arquitetura de 3 camadas para garantir a separa�
 ## 🛠️ Tecnologias Utilizadas
 
 - **Java (21)**
-- **Lombok:** Para reduzir código boilerplate (getters, setters, etc.) na classe `Task`.
+- **Lombok:** Para reduzir código boilerplate (getters, setters, etc.).
 
 ## 📋 Como Usar
 
