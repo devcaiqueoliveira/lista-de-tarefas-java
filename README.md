@@ -1,4 +1,4 @@
-# Gerenciador de Tarefas em Linha de Comando
+# Gerenciador de Tarefas CLI
 
 Um projeto de console simples, escrito em Java puro, para gerenciar uma lista de tarefas (To-Do list). Este projeto foi desenvolvido como um exercício de aprendizado, com foco em boas práticas de programação, princípios de design como a Separação de Camadas e o Princípio da Responsabilidade Única (SOLID), sem o uso de frameworks ou bancos de dados externos.
 
