@@ -10,7 +10,6 @@ Um projeto de console simples, escrito em Java puro, para gerenciar uma lista de
 - **Atualizar Tarefas:** Modifique a descrição e o prazo de uma tarefa existente.
 - **Marcar como Concluída:** Altere o status de uma tarefa para "concluída".
 - **Remover Tarefas:** Exclua tarefas da lista.
-- **Persistência em Memória:** Todos os dados são armazenados em memória e são perdidos quando o programa é encerrado.
 
 ## 📂 Estrutura do Projeto
 
