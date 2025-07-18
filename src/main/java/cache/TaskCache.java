@@ -1,19 +1,33 @@
 package cache;
 
 import core.Task;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
 public class TaskCache {
-    private static Map<String, Task> taskList = new HashMap<>();
+    private TaskCache() {
+    }
 
-    public static void addTask(Task task) {
-        taskList.put(task.getName(), task);
+    private static final Map<String, Task> TASK_MAP = new HashMap<>();
+
+    public static void addTask(Task taskToAdd) {
+        TASK_MAP.put(taskToAdd.getName(), taskToAdd);
     }
-    public static void removeTask(String task) {
-        taskList.remove(task);
+
+    public static void removeTask(String taskToAdd) {
+        TASK_MAP.remove(taskToAdd);
     }
-    public static void listAllTasks(Task task) {
-        taskList.get(task.getName());
+
+    public static boolean taskNameExists(String taskName) {
+        return TASK_MAP.containsKey(taskName);
+    }
+
+    public static Task getTaskByName(String taskName) {
+        return TASK_MAP.get(taskName);
+    }
+
+    public static Collection<Task> getAllTasks() {
+        return TASK_MAP.values();
     }
 }
